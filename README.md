@@ -34,6 +34,10 @@ Primeiro projeto da trilha Node.js do curso Ignite da rocketseat
 
 
 
+# DTO
+
+data transfer object - objeto para transferir dados entre camadas
+
 
 <br>
 
