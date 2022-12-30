@@ -22,14 +22,14 @@ Primeiro projeto da trilha Node.js do curso Ignite da rocketseat
 
 # Tools
 
- - [Express]()
- - [Typescript]()
- - [eslint]()
- - [prettier]()
- - [Node.js]()
- - [vscode]()
- - [insomnia]()
- - [uuid]()
+ - [Express](https://expressjs.com/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [eslint](https://eslint.org/)
+ - [prettier](https://prettier.io/)
+ - [Node.js](https://nodejs.org/en/docs/)
+ - [vscode](https://code.visualstudio.com/)
+ - [insomnia](https://insomnia.rest/)
+ - [uuid](https://www.npmjs.com/package/uuid)
 
 
 
