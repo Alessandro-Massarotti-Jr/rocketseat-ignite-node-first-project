@@ -92,6 +92,12 @@ De acordo com Uncle Bob, esse princípio pode ser definido da seguinte forma:
 
 No contexto da programação orientada a objetos, é comum que as pessoas confundam a Inversão de Dependência com a Injeção de Dependência, porém são coisas distintas, mas que relacionam entre si com um proposito em comum, deixar o código desacoplado.
 
+## Paterns
+
+### Singleton
+
+Singleton é um padrão de design criacional que permite garantir que uma classe tenha apenas uma instância, enquanto fornece um ponto de acesso global a essa instância.
+
 <br>
 
 ---
