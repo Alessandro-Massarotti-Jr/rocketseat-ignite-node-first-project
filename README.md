@@ -30,8 +30,8 @@ Primeiro projeto da trilha Node.js do curso Ignite da rocketseat
  - [vscode](https://code.visualstudio.com/)
  - [insomnia](https://insomnia.rest/)
  - [uuid](https://www.npmjs.com/package/uuid)
-
-
+ - [swagger](https://swagger.io/)
+ - [docker](https://www.docker.com/)
 
 
 ## DTO
