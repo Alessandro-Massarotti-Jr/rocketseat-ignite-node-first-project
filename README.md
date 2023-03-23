@@ -98,6 +98,13 @@ No contexto da programação orientada a objetos, é comum que as pessoas confun
 
 Singleton é um padrão de design criacional que permite garantir que uma classe tenha apenas uma instância, enquanto fornece um ponto de acesso global a essa instância.
 
+## Docker
+
+ -  docker build -t {nome_imagem} {diretorio: ex: .} // criar imagem
+ -  docker ps ver // containers ativos
+ -  docker run -p 3333:3333 {nome_imagen} // criar container
+ -  docker exec -it {nome container} /bin/bash // acessar terminal container
+
 <br>
 
 ---
