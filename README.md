@@ -100,10 +100,15 @@ Singleton é um padrão de design criacional que permite garantir que uma classe
 
 ## Docker
 
- -  docker build -t {nome_imagem} {diretorio: ex: .} // criar imagem
+ -  docker build -t `{nome_imagem}` `{diretorio: ex: .}` // criar imagem
  -  docker ps ver // containers ativos
- -  docker run -p 3333:3333 {nome_imagen} // criar container
- -  docker exec -it {nome container} /bin/bash // acessar terminal container
+ -  docker run -p `{local_port}`:`{container_port}` `{nome_imagen}` // criar container
+ -  docker exec -it `{nome container}` /bin/bash // acessar terminal container
+ -  docker stop `{container_id}` // parar execução de container
+ -  docker rm `{container_id}` // remover container
+ -  docker logs `{container_name}` -f // ver logs do console do container
+ -  docker-compose up // executar docker compor
+ -  docker-compose up -d // executar container fora do terminal
 
 <br>
 
