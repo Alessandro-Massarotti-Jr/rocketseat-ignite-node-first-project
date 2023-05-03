@@ -7,9 +7,9 @@ class CreateUserUseCase {
 
     constructor(@inject("UsersRepository") private usersRepository: IUsersRepository) { };
 
-    async execute({ name, email, password, username, driver_license }: ICreateUserDTO) {
+    async execute({ name, email, password, driver_license }: ICreateUserDTO) {
 
-        await this.usersRepository.create({ name, driver_license, email, password, username });
+        await this.usersRepository.create({ name, driver_license, email, password });
     }
 
 }
