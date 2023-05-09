@@ -1,4 +1,4 @@
-import { AppError } from "@errors/AppError";
+import { AppError } from "@shared/errors/AppError";
 
 import "reflect-metadata";
 import { CreateUserUseCase } from "../createUser/CreateUserUseCase";

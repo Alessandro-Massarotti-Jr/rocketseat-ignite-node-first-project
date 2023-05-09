@@ -1,12 +1,13 @@
 import "reflect-metadata";
-import "./database";
-import "./shared/container";
+import "../typeorm";
+import "../../container";
 import express, { NextFunction, Request, Response, response } from "express";
 import "express-async-errors";
-import { router } from "./routes";
+
 import swaggerUi from "swagger-ui-express";
-import swaggerFile from "./swagger.json";
-import { AppError } from "./errors/AppError";
+import swaggerFile from "../../../swagger.json";
+import { AppError } from "../../errors/AppError";
+import { router } from "@shared/infra/http/routes";
 
 
 

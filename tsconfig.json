@@ -10,7 +10,7 @@
       "@modules/*": [
         "modules/*"
       ],
-      "@config/@": [
+      "@config/*": [
         "config/*"
       ],
       "@shared/*": [
