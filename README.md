@@ -16,11 +16,7 @@ Primeiro projeto da trilha Node.js do curso Ignite da rocketseat
  - Run `npm install` to install project dependencies
  - Run `npm run dev` to start development server
 
-## database
-
- <img src="./diagram.png" alt="diagrama">
-
-# Tools
+## Tools
 
  - [Express](https://expressjs.com/)
  - [Typescript](https://www.typescriptlang.org/)
@@ -32,7 +28,85 @@ Primeiro projeto da trilha Node.js do curso Ignite da rocketseat
  - [uuid](https://www.npmjs.com/package/uuid)
  - [swagger](https://swagger.io/)
  - [docker](https://www.docker.com/)
+ - [TSyringe](https://github.com/Microsoft/tsyringe)
+ - [Jest](https://jestjs.io/)
 
+## database
+
+ <img src="./diagram.png" alt="diagrama">
+
+
+## Requisitos
+
+ - Requisitos funcionais (RF)
+ - Requisitos não funcionais (RNF)
+ - Regra de negocio (RN)
+
+### Cadastrar Carro
+
+**RF**
+Deve ser possivel cadastrar um novo carro.
+Deve ser possivel listar todas as categorias.
+
+**RNF**
+
+**RN**
+Não deve ser possivel cadastrar um carro com uma placa ja existente.
+Não deve ser possivel alterar a placa de um carro ja cadastrado.
+O carro deve ser cadastrado por padrã com disponibilidade.
+O usuário responsavel pelo cadastro deve ser um usuário administrador.
+
+### Listagem de carros
+
+**RF**
+Deve ser possivel listar todos os carros disponiveis.
+Deve ser possivel listar todos os carros disponiveis pelo nome da categoria.
+Deve ser possivel listar todos os carros disponiveis pelo nome da marca.
+Deve ser possivel listar todos os carros disponiveis pelo nome do carro.
+
+**RNF**
+
+**RN**
+O usuário não precisa estar logado no sistema.
+
+### Cadastro de especificação no carro
+
+**RF**
+Deve ser possivel cadastrar uma especificação para um carro.
+Deve ser possivel listar todas as especificações.
+Deve ser possivel listar todos os carros.
+
+**RNF**
+
+**RN**
+Não deve ser possivel cadastrar uma especificação para um carro não cadastrado.
+Não deve ser possivel cadastrar uma especificação ja existente para o mesmo carro.
+O usuário responsavel pelo cadastro deve ser um usuário administrador.
+
+### Cadastro de imagens do carro
+
+**RF**
+Deve ser possivel cadastrar a imagem do carro.
+Deve ser possivel listar todos os carros. 
+
+**RNF**
+Utilizar o multer para upload dos arquivos.
+
+**RN**
+O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
+O usuário responsavel pelo cadastro deve ser um usuário administrador.
+
+### Aluguel de carro
+
+**RF**
+Deve ser possivel cadastrar um aluguel.
+
+**RNF**
+
+**RN**
+O aluguel deve ter duração minima de 24 horas.
+Não deve ser possivel cadastrar um novo aluguel caso já exista um aberto para o mesmo usuario.
+Não deve ser possivel cadastrar um novo aluguel caso já exista um aberto para o mesmo carro. 
 
 ## DTO
 
